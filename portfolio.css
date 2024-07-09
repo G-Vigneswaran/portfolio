@@ -1,0 +1,125 @@
+body{
+  background-color: grey;
+  margin: 0;
+  font-size: 20px;
+}
+.img-div{
+  position: relative;
+  background-image: url("images/pic.jpg");
+  width: 100%;
+  height: 720px;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img-div2{
+  position: relative;
+  background-image: url("images/proj1.jpg");
+  width: 100%;
+  height: 720px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  top:750px
+}
+.bg-photo{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.intro-div{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 300px;
+  left: 10%;
+  right: 65%;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 10px;
+}
+.intro-div2{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute;
+  top: 300px;
+  left: 10%;
+  right: 70%;
+  background-color: grey;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 10px;
+}
+.details{
+  position: absolute;
+  top:750px;
+  padding: 10px;
+  line-height: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.name{
+  font-size: xx-large;
+  font-weight: bold;
+}
+.role{
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+.right{
+  position: absolute;
+  right: 400px;
+  width:300px
+}
+.same-details{
+  line-height: 20px;
+}
+.link{
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.name-of-topic{
+  font-weight:bold;
+}
+.project1{
+  position: absolute;
+  top:740px;
+  padding-left: 10px;
+  width: 900px;
+}
+.project2{
+  position: absolute;
+  top:1050px;
+  padding-left: 10px;
+  
+  width: 900px;
+}
+.project3{
+  position: absolute;
+  top:1300px;
+  padding-left: 10px;
+  width: 900px;
+}
+.project-title{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.project-tools{
+  font-weight: bold;
+}
+.project-desc{
+  line-height: 30px;
+}
